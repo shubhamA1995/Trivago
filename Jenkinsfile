@@ -15,7 +15,7 @@ pipeline {
                     sh 'mvn clean compile'
                 }
             }
-            stage('QA Execution') {
+              stage('QA Execution') {
                 steps {
                     sh 'mvn clean test'
                 }
